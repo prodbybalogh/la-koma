@@ -22,3 +22,14 @@ h1{
     width: 45px;
     margin-left: 5px;
 }
+#rolunkkep{
+ display: block;
+  margin: auto;
+  width: 50%;
+
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
