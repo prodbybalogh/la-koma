@@ -20,3 +20,16 @@ h1{
     height: 100px;
     width: 100px;
 }
+#rolunkkep{
+ display: block;
+  margin: auto;
+  width: 50%;
+
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
