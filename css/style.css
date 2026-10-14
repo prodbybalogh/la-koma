@@ -1,17 +1,15 @@
-header{
+.container{
     background-image: url('/img/etterem.png');
 
 }
-#feher{
+h1{
     text-align: center;
-    color:azure
+    
     
 }
+
 .kozep{
     text-align: center;
     color: azure;
     
-}
-button{
-    text-align: center;
 }
