@@ -1,13 +1,21 @@
-.container{
+.cim{
     background-image: url('/img/etterem.png');
 
 }
 h1{
-    text-align: center;
-    
-    
+    text-align: center;  
 }
+
+#feher{
+    color: white;
+}
+
 .kozep{
     text-align: center;
     
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
 }
