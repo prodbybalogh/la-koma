@@ -121,3 +121,38 @@ nav {
   color: #333333;
   margin-bottom: 30px;
 }
+
+.kulonlegesszoveg {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.kulonlegeskep {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.kulonlegestartalom{
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.kulonleges-container{
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 60px auto;
+  background-color: #b34545;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
