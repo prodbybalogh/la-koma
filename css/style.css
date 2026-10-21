@@ -176,32 +176,7 @@ body {
   margin-bottom: 30px;
 }
 
-.hatter2{
-    background-image: url(/img/hatter.png);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: white;
-    padding: 60px 20px;
-}
-
-/* Cím */
-.hatter2 h1 {
-    font-size: 36px;
-}
-
-/* Szöveg */
-.hatter2 p {
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-/* Gomb */
-.hatter2 a {
-  display: inline-block;
-  background-color: #f02f50;
-  color: white;
-  text-decoration: none;
+.kulonlegesszoveg {
   font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
