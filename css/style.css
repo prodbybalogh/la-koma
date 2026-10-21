@@ -178,9 +178,71 @@ body {
 
 .kulonlegesszoveg {
   font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.kulonlegeskep {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.kulonlegestartalom{
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.kulonleges-container{
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 60px auto;
+  background-color: gainsboro;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  
+}
+
+.hatter2{
+    background-image: url(/img/hatter.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+/* Cím */
+.hatter2 h1 {
+    font-size: 36px;
+}
+
+/* Szöveg */
+.hatter2 p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Gomb */
+.hatter2 a {
+  display: inline-block;
+  background-color: #f02f50;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.5px;
-  padding: 14px 27px;
+  padding: 14px 28px;
   border-radius: 12px;
 }
