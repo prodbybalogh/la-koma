@@ -27,7 +27,7 @@ nav {
 .hatter {
   height: auto;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.8;
   display: block;
 }
 
@@ -41,14 +41,14 @@ nav {
 }
 
 #feher {
-  color: gainsboro;
+  color: white;
   font-size: 48px;
   margin-bottom: 10px;
 }
 
 .kozep {
   text-align: center;
-  color: gainsboro;
+  color: white;
   font-size: 25px;
   margin-bottom: 20px;
 }
@@ -120,4 +120,38 @@ nav {
   line-height: 1.6;
   color: #333333;
   margin-bottom: 30px;
+}
+
+.hatter2{
+    background-image: url(/img/hatter.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+/* Cím */
+.hatter2 h1 {
+    font-size: 36px;
+}
+
+/* Szöveg */
+.hatter2 p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Gomb */
+.hatter2 a {
+  display: inline-block;
+  background-color: #f02f50;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 14px 28px;
+  border-radius: 12px;
 }
