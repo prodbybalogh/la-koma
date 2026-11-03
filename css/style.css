@@ -256,3 +256,8 @@ footer {
   margin: 0;
   padding: 3px;
 }
+#galeria img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
