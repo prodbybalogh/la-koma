@@ -220,29 +220,27 @@ body {
     text-align: center;
     color: white;
     padding: 60px 20px;
+    font-weight: bold;
 }
 
-/* Cím */
 .hatter2 h1 {
     font-size: 36px;
 }
 
-/* Szöveg */
+
 .hatter2 p {
     font-size: 16px;
     line-height: 1.8;
 }
 
-/* Gomb */
-.hatter2 a {
-  display: inline-block;
-  background-color: #f02f50;
-  color: white;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  padding: 14px 28px;
-  border-radius: 12px;
+
+.hatter2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.etlap-kep {
+    max-width: 300px;
+    width: 100%;
+    margin-top: 10px;
 }
