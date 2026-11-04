@@ -1,129 +1,255 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La'koma pizzéria</title>
-    <meta name="description" content="La'koma pizzéria">
-    <link rel="icon" href="img/logo.png" type="favicon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#kezdolap">
-        <img class="logo" src="img/logo.png" alt="Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#main-navigation" aria-controls="main-navigation"
-        aria-expanded="false" aria-label="Navigáció megnyitása">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="main-navigation">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#kezdolap">Kezdőlap</a></li>
-          <li class="nav-item"><a class="nav-link" href="#rolunk">Rólunk</a></li>
-          <li class="nav-item"><a class="nav-link" href="#etlap">Étlap</a></li>
-          <li class="nav-item"><a class="nav-link" href="#galeria">Galéria</a></li>
-        </ul>
+    <meta name="description" content="La'koma pizzéria" />
+    <link rel="icon" href="img/logo.png" type="favicon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#kezdolap">
+          <img class="logo" src="img/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-navigation"
+          aria-controls="main-navigation"
+          aria-expanded="false"
+          aria-label="Navigáció megnyitása"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#kezdolap">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rolunk">Rólunk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galéria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#etlap">Étlap</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <header>
-    <div id="kezdolap" class="hero-container">
-      <img class="hatter" src="img/etterem.png" alt="Étterem">
-      <div class="feheredes"></div>
-      <div class="hero-text">
-        <h1 id="feher">La'koma pizzéria</h1>
-        <p class="kozep">Minden nap frissen, minden falatban minőség.</p>
-        <a href="#galeria" class="etlap-gomb">Nézd meg a pizzáinkat!</a>
+    </nav>
+    <header>
+      <div id="kezdolap" class="hero-container">
+        <img class="hatter" src="img/etterem.png" alt="Étterem" />
+        <div class="hero-text">
+          <h1 id="feher">La'koma pizzéria</h1>
+          <p class="kozep">Minden nap frissen, minden falatban minőség.</p>
+          <a href="#galeria" class="etlap-gomb">Nézd meg a pizzáinkat!</a>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <section id="rolunk" class="rolunk-container">
-      <div class="rolunk-tartalom">
-        <h2>Üdvözlünk!</h2>
-        <p id="rolunkszoveg">
-          Üdvözlünk a La'koma Pizzériában!<br><br>
-          Nálunk a finom pizza, a friss alapanyagok és a jó hangulat találkozik. Pizzáinkat gondosan válogatott alapanyagokból, szeretettel és odafigyeléssel készítjük, hogy minden falat igazi élmény legyen.<br><br>
-          Látogass el hozzánk családoddal, barátaiddal, és válaszd ki kedvenc pizzádat! Legyen szó egy klasszikus ízről vagy egy különlegesebb összeállításról, nálunk mindenki talál kedvére valót.<br><br>
-          <strong>La'koma Pizzéria – ahol mindig jól esik egy pizza!</strong>
-        </p>
-        <a href="#etlap" class="etlap-gomb">TEKINTSD MEG ÉTLAPUNKAT!</a>
-      </div>
-      <div class="rolunk-kep-wrapper">
-        <img id="rolunkkep" src="img/rolunk.png" alt="La'koma Pizzéria">
-      </div>
-    </section>
-    <section class="container my-5">
-      <div class="row g-3">
-        <div class="col-6 col-md-3">
-          <img src="img/rolunk_1.png" alt="1. kép" class="img-fluid rounded shadow-sm">
-        </div>
-        <div class="col-6 col-md-3">
-          <img src="img/rulonk_2.png" alt="2. kép" class="img-fluid rounded shadow-sm">
-        </div>
-        <div class="col-6 col-md-3">
-          <img src="img/rulonk_3.png" alt="3. kép" class="img-fluid rounded shadow-sm">
-        </div>
-        <div class="col-6 col-md-3">
-          <img src="img/rulonk_4.png" alt="4. kép" class="img-fluid rounded shadow-sm">
-        </div>
-      </div>
-    </section>
-    <section  class="kulonleges-container">
-      <div class="kulonlegestartalom">
-        <p class="kulonlegesszoveg">
-          Eredeti olasz recept, válogatott alapanyagok, <br> hamisítatlan ízek! A Diavola pizza karakteres, pikáns szalámival és olvadozó mozzarellával hozza el az igazi olasz életérzést. Tüzes ízek, ellenállhatatlan élmény – merj belekóstolni!
-        </p>
-      </div>
-      <div>
-        <img class="kulonlegeskep" src="img/diavola-pizza.png">
-      </div>
-
-    </section>
-    <section  class="kulonleges-container">
-      <div class="kulonlegestartalom">
-        <p class="kulonlegesszoveg">
-         Calzone - az olasz ízekbe zárt élmeny!Aranybarnára sült, kívül ropogós, belül ínycsiklandóan szaftos tészta, finom olasz alapanyagokkal és olvadozó sajttal. Minden falat egy kis Olaszország!
-        </p>
-      </div>
-      <div>
-        <img class="kulonlegeskep" src="img/calzone.png">
-      </div>
+    <main>
       
-    </section>
-    <section  class="kulonleges-container">
-      <div class="kulonlegestartalom">
-        <p class="kulonlegesszoveg">
-          A frissítő klasszikusoktól az autentikus olasz üdítőkig – nálunk mindenki megtalálja a kedvencét! Válaszd ki a pizzád mellé a tökéletes frissítőt, és élvezd az olasz életérzést!
+      <section id="rolunk" class="rolunk-container">
+        <div class="rolunk-kep-wrapper">
+          <img id="rolunkkep" src="img/rolunk.png" alt="La'koma Pizzéria" />
+        </div>
+        <div class="rolunk-tartalom">
+          <h2>Üdvözlünk!</h2>
+          <p id="rolunkszoveg">
+            Üdvözlünk a La'koma Pizzériában!<br /><br />
+            Nálunk a finom pizza, a friss alapanyagok és a jó hangulat
+            találkozik. Pizzáinkat gondosan válogatott alapanyagokból,
+            szeretettel és odafigyeléssel készítjük, hogy minden falat igazi
+            élmény legyen.<br /><br />
+            Látogass el hozzánk családoddal, barátaiddal, és válaszd ki kedvenc
+            pizzádat! Legyen szó egy klasszikus ízről vagy egy különlegesebb
+            összeállításról, nálunk mindenki talál kedvére valót.<br /><br />
+            <strong>La'koma Pizzéria – ahol mindig jól esik egy pizza!</strong>
+          </p>
+          <a href="#etlap" class="etlap-gomb">TEKINTSD MEG ÉTLAPUNKAT!</a>
+        </div>
+      </section>
+      <section class="container my-5">
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <img
+              src="img/rolunk_1.png"
+              alt="1. kép"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+          <div class="col-6 col-md-3">
+            <img
+              src="img/rulonk_2.png"
+              alt="2. kép"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+          <div class="col-6 col-md-3">
+            <img
+              src="img/rulonk_3.png"
+              alt="3. kép"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+          <div class="col-6 col-md-3">
+            <img
+              src="img/rulonk_4.png"
+              alt="4. kép"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="kulonleges-container">
+        <div class="kulonlegestartalom">
+          <p class="kulonlegesszoveg">
+            Eredeti olasz recept, válogatott alapanyagok, <br />
+            hamisítatlan ízek! A Diavola pizza karakteres, pikáns szalámival és
+            olvadozó mozzarellával hozza el az igazi olasz életérzést. Tüzes
+            ízek, ellenállhatatlan élmény – merj belekóstolni!
+          </p>
+        </div>
+        <div>
+          <img class="kulonlegeskep" src="img/diavola-pizza.png" />
+        </div>
+      </section>
+      <section class="kulonleges-container">
+        <div>
+          <img class="kulonlegeskep" src="img/calzone.png" />
+        </div>
+
+        <div class="kulonlegestartalom">
+          <p class="kulonlegesszoveg">
+            Calzone - az olasz ízekbe zárt élmény!Aranybarnára sült, kívül
+            ropogós, belül ínycsiklandóan szaftos tészta, finom olasz
+            alapanyagokkal és olvadozó sajttal. Minden falat egy kis
+            Olaszország!
+          </p>
+        </div>
+      </section>
+      <section class="kulonleges-container">
+        <div class="kulonlegestartalom">
+          <p class="kulonlegesszoveg">
+            A frissítő klasszikusoktól az autentikus olasz üdítőkig – nálunk
+            mindenki megtalálja a kedvencét! Válaszd ki a pizzád mellé a
+            tökéletes frissítőt, és élvezd az olasz életérzést!
+          </p>
+        </div>
+        <div>
+          <img class="kulonlegeskep" src="img/udito.png" />
+        </div>
+      </section>
+
+     
+      <section id="galeria" class="container my-5">
+        <h2 class="text-center mb-4">Galéria</h2>
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Calzone</p>
+              <img src="img/calzone.png" alt="Calzone" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Diavola Pizza</p>
+              <img src="img/diavola-pizza.png" alt="Diavola Pizza" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Funghi Pizza</p>
+              <img src="img/funghi.png" alt="Funghi Pizza" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Margherita</p>
+              <img src="img/marg.png" alt="Margherita" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Pizza Tonno</p>
+              <img src="img/Pizza-tonno.png" alt="Tonno" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Prosciutto</p>
+              <img src="img/prosciutto.png" alt="Prosciutto" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Quattro Formaggi</p>
+              <img src="img/quattro-formaggi.png" alt="Quattro Formaggi" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Szalámis pizza</p>
+              <img src="img/sal.png" alt="Szalámis pizza" class="img-fluid rounded" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="galeria-doboz p-2 bg-light rounded shadow-sm">
+              <p class="fw-bold mb-2">Vegetáriánus pizza</p>
+              <img src="img/vegetarian-pizza.png" alt="Vegetáriánus pizza" class="img-fluid rounded" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="etlap" class="hatter2">
+        <h1>Menü & Pizza menü ajánlatok!</h1>
+
+        <p><b>Hétköznap 11:00 és 14:00 óra között várunk!</b></p>
+
+        <p>
+          Napi menünk, pizza menünk frissen készült pizzát és olasz üdítőt
+          tartalmaz. Nézd meg aktuális ajánlatainkat!
         </p>
+
+        <a href="img/etlap.png" target="_blank" class="etlap-gomb"
+          >MENÜ ÉTLAP</a
+        >
       </div>
-      <div>
-        <img class="kulonlegeskep" src="img/udito.png">
+
+      <div id="etlap" class="text-center my-4">
+        <img
+          src="img/etlap.png"
+          alt="Étlap"
+          class="img-fluid rounded shadow etlap-kep"
+          style="max-width: 500px; width: 100%"
+          title="Étlap"
+        />
       </div>
-
-    </section>
-<div class="hatter2">
-    <h1>Menü & Pizza menü ajánlatok!</h1>
-
-    <p><b>Hétköznap 11:00 és 14:00 óra között várunk!</b></p>
-
-    <p>
-        Napi menünk levest és főételt, pizza menünk pedig
-        frissen készült pizzát és olasz üdítőt tartalmaz.
-        Nézd meg aktuális ajánlatainkat!
-    </p>
-
-    <a href="#etlap">MENÜ ÉTLAP</a>
-</div>
-
-
-  </main>
-  <footer></footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    </main>
+    <footer>
+      <div class="nyitvatartas">
+        <p>Hétfő: 9:30 – 22:00</p>
+        <p>Kedd: 9:30 – 22:00</p>
+        <p>Szerda: 9:30 – 22:00</p>
+        <p>Csütörtök: 9:30 – 22:00</p>
+        <p>Péntek: 9:30 – 22:30</p>
+        <p>Szombat: 9:30 – 22:30</p>
+        <p>Vasárnap: 9:30 – 22:00</p>
+        <p>Konyha: 9:30 – 21:00</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
